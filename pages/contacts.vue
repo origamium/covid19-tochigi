@@ -33,23 +33,6 @@
           </tr>
           <tr>
             <td class="content" v-bind="headingAttrs">
-              {{ $t('新型コロナウイルス感染症対策本部会議に関すること')
-              }}<br />{{ $t('都庁来庁者データに関すること') }}
-            </td>
-            <td class="bureau">{{ $t('総務局') }}</td>
-            <td class="tel">
-              {{ $t('感染症対策本部会議に関すること') }}<br /><a
-                href="tel:03-5320-7891"
-                >03-5320-7891</a
-              ><br />
-              {{ $t('都庁来庁者データに関すること') }}<br /><a
-                href="tel:03-5388-2319"
-                >03-5388-2319</a
-              >
-            </td>
-          </tr>
-          <tr>
-            <td class="content" v-bind="headingAttrs">
               {{ $t('都公式ホームページに関すること') }}<br />{{
                 $t('都公式SNSアカウントに関すること')
               }}
@@ -91,30 +74,6 @@
             <td class="tel">
               <a href="tel:0570-550-571">0570-550-571</a><br />
               {{ $t('（新型コロナコールセンター）') }}
-            </td>
-          </tr>
-          <tr>
-            <td class="content" v-bind="headingAttrs">
-              {{ $t('都立学校に関すること') }}
-            </td>
-            <td class="bureau">{{ $t('教育庁') }}</td>
-            <td class="tel"><a href="tel:03-5320-6705">03-5320-6705</a></td>
-          </tr>
-          <tr>
-            <td class="content" v-bind="headingAttrs">
-              {{ $t('スムーズビズに関すること') }}
-            </td>
-            <td class="bureau">{{ $t('都市整備局') }}</td>
-            <td class="tel"><a href="tel:03-5388-3317">03-5388-3317</a></td>
-          </tr>
-          <tr>
-            <td class="content" v-bind="headingAttrs">
-              {{ $t('都営交通に関すること') }}
-            </td>
-            <td class="bureau">{{ $t('交通局') }}</td>
-            <td class="tel">
-              <a href="tel:03-3816-5700">03-3816-5700</a><br />
-              {{ $t('（都営交通お客様センター）') }}
             </td>
           </tr>
         </tbody>
