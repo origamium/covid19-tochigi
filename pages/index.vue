@@ -31,7 +31,6 @@
       <tested-number-card />
       <telephone-advisory-reports-number-card />
       <consultation-desk-reports-number-card />
-      <metro-card />
       <agency-card />
     </v-row>
     <v-divider />
@@ -54,7 +53,6 @@ import TestedNumberCard from '@/components/cards/TestedNumberCard.vue'
 import InspectionPersonsNumberCard from '@/components/cards/InspectionPersonsNumberCard.vue'
 import TelephoneAdvisoryReportsNumberCard from '@/components/cards/TelephoneAdvisoryReportsNumberCard.vue'
 import ConsultationDeskReportsNumberCard from '@/components/cards/ConsultationDeskReportsNumberCard.vue'
-import MetroCard from '@/components/cards/MetroCard.vue'
 import AgencyCard from '@/components/cards/AgencyCard.vue'
 import { convertDatetimeToISO8601Format } from '@/utils/formatDate'
 
@@ -71,7 +69,6 @@ export default Vue.extend({
     InspectionPersonsNumberCard,
     TelephoneAdvisoryReportsNumberCard,
     ConsultationDeskReportsNumberCard,
-    MetroCard,
     AgencyCard
   },
   data() {
@@ -79,7 +76,7 @@ export default Vue.extend({
       Data,
       headerItem: {
         icon: 'mdi-chart-timeline-variant',
-        title: this.$t('都内の最新感染動向')
+        title: this.$t('県内の最新感染動向')
       },
       newsItems: News.newsItems
     }
@@ -92,7 +89,7 @@ export default Vue.extend({
   },
   head(): MetaInfo {
     return {
-      title: this.$t('都内の最新感染動向') as string
+      title: this.$t('県内の最新感染動向') as string
     }
   }
 })
