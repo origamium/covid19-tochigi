@@ -1,8 +1,8 @@
 {
-  "name": "covid19",
+  "name": "covid19-tochigi",
   "version": "1.0.0",
-  "description": "東京都 新型コロナウイルス感染症対策サイト",
-  "author": "東京都",
+  "description": "栃木県 非公式新型コロナウイルス感染症対策サイト",
+  "author": "origamium",
   "private": true,
   "engines": {
     "node": ">=10.19.0"
