@@ -7,7 +7,9 @@
       :chart-data="patientsGraph"
       :date="Data.patients.date"
       :unit="$t('人')"
-      :url="'https://catalog.data.metro.tokyo.lg.jp/dataset/t000010d0000000068'"
+      :url="
+        'http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/documents/kanjahasseiichiran.pdf'
+      "
     />
   </v-col>
 </template>
@@ -24,7 +26,6 @@ export default {
   data() {
     // 感染者数グラフ
     const patientsGraph = formatGraph(Data.patients_summary.data)
-
     const data = {
       Data,
       patientsGraph

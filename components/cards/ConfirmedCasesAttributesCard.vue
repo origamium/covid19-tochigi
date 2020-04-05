@@ -7,7 +7,9 @@
       :chart-option="{}"
       :date="Data.patients.date"
       :info="sumInfoOfPatients"
-      :url="'https://catalog.data.metro.tokyo.lg.jp/dataset/t000010d0000000068'"
+      :url="
+        'http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/documents/kanjahasseiichiran.pdf'
+      "
       :source="$t('オープンデータを入手')"
     />
   </v-col>
