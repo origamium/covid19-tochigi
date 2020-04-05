@@ -68,10 +68,6 @@ export default {
         title = this.$t('検査陽性者の状況')
         updatedAt = Data.inspections_summary.date
         break
-      case 'details-of-tested-cases':
-        title = this.$t('検査実施状況')
-        updatedAt = Data.inspection_status_summary.date
-        break
       case 'number-of-confirmed-cases':
         title = this.$t('陽性患者数')
         updatedAt = Data.patients.date
@@ -89,7 +85,7 @@ export default {
     return data
   },
   head() {
-    const url = 'https://stopcovid19.metro.tokyo.lg.jp'
+    const url = 'https://covid-19-tochigi.origamium.net'
     const timestamp = new Date().getTime()
     const ogpImage =
       this.$i18n.locale === 'ja'
@@ -116,7 +112,7 @@ export default {
             this.$t('栃木県') +
             ' ' +
             this.$t('新型コロナウイルス感染症') +
-            this.$t('対策サイト')
+            this.$t('非公式対策サイト')
         },
         {
           hid: 'description',
