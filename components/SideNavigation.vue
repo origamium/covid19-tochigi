@@ -12,8 +12,8 @@
         <nuxt-link :to="localePath('/')" class="SideNavigation-HeaderLink">
           <img
             class="SideNavigation-HeaderLogo"
-            src="/logo.svg"
-            :alt="$t('東京都')"
+            src="/logo.gif"
+            :alt="$t('栃木県')"
           />
           <div class="SideNavigation-HeaderText">
             {{ $t('menu/新型コロナウイルス感染症') }}<br />{{
@@ -51,18 +51,7 @@
       <footer class="SideNavigation-Footer">
         <div class="SideNavigation-Social">
           <a
-            href="https://line.me/R/ti/p/%40822sysfc"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="SideNavigation-SocialLink"
-          >
-            <picture>
-              <source srcset="/line.webp" type="image/webp" />
-              <img src="/line.png" alt="LINE" />
-            </picture>
-          </a>
-          <a
-            href="https://twitter.com/tokyo_bousai"
+            href="https://twitter.com/pref_tochigi"
             target="_blank"
             rel="noopener noreferrer"
             class="SideNavigation-SocialLink"
@@ -73,18 +62,7 @@
             </picture>
           </a>
           <a
-            href="https://www.facebook.com/tochokoho"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="SideNavigation-SocialLink"
-          >
-            <picture>
-              <source srcset="/facebook.webp" type="image/webp" />
-              <img src="/facebook.png" alt="Facebook" />
-            </picture>
-          </a>
-          <a
-            href="https://github.com/tokyo-metropolitan-gov/covid19"
+            href="https://github.com/origamium/covid19"
             target="_blank"
             rel="noopener noreferrer"
             class="SideNavigation-SocialLink"

@@ -2,7 +2,7 @@
   <v-app class="app">
     <v-overlay v-if="loading" color="#F8F9FA" opacity="1" z-index="9999">
       <div class="loader">
-        <img src="/logo.svg" alt="東京都" />
+        <img src="/logo.gif" alt="栃木県" />
         <scale-loader color="#00A040" />
       </div>
     </v-overlay>
@@ -34,8 +34,8 @@
 <script lang="ts">
 import Vue from 'vue'
 import { MetaInfo } from 'vue-meta'
-import Data from '@/data/data.json'
 import ScaleLoader from 'vue-spinner/src/ScaleLoader.vue'
+import Data from '@/data/data.json'
 import SideNavigation from '@/components/SideNavigation.vue'
 import NoScript from '@/components/NoScript.vue'
 import DevelopmentModeMark from '@/components/DevelopmentModeMark.vue'
