@@ -11,69 +11,31 @@
               {{ $t('お問い合わせ内容') }}
             </th>
             <th class="text-center" scope="col">{{ $t('局名') }}</th>
-            <th class="text-center" scope="col">{{ $t('電話番号') }}</th>
+            <th class="text-center" scope="col">窓口</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td class="content" v-bind="headingAttrs">
-              {{ $t('サイト全般に関すること') }}
-            </td>
-            <td class="bureau">{{ $t('政策企画局') }}</td>
-            <td class="tel"><a href="tel:03-5388-2171">03-5388-2171</a></td>
-          </tr>
-          <tr>
-            <td class="content" v-bind="headingAttrs">
-              {{ $t('サイトの技術面に関すること') }}<br />{{
-                $t('オープンデータ、オープンソースに関すること')
-              }}
-            </td>
-            <td class="bureau">{{ $t('戦略政策情報推進本部') }}</td>
-            <td class="tel"><a href="tel:03-5320-7930">03-5320-7930</a></td>
-          </tr>
-          <tr>
-            <td class="content" v-bind="headingAttrs">
-              {{ $t('都公式ホームページに関すること') }}<br />{{
-                $t('都公式SNSアカウントに関すること')
-              }}
-            </td>
-            <td class="bureau">{{ $t('生活文化局') }}</td>
-            <td class="tel">
-              {{ $t('都公式ホームページに関すること') }}<br /><a
-                href="tel:03-5388-3061"
-                >03-5388-3061</a
-              ><br />
-              {{ $t('都公式SNSアカウントに関すること') }}<br /><a
-                href="tel:03-5388-3094"
-                >03-5388-3094</a
-              >
-            </td>
-          </tr>
-          <tr>
-            <td class="content" v-bind="headingAttrs">
-              {{ $t('中小企業支援、テレワークに関すること') }}
-            </td>
-            <td class="bureau">{{ $t('産業労働局') }}</td>
-            <td class="tel">
-              {{ $t('資金繰りに関すること') }}<br /><a href="tel:03-5320-4877"
-                >03-5320-4877</a
-              ><br />
-              {{ $t('経営に関すること') }}<br /><a href="tel:03-3251-7881"
-                >03-3251-7881</a
-              ><br />
-              {{ $t('労働関係に関すること') }}<br /><a href="tel:0570-00-6110"
-                >0570-00-6110</a
-              >
-            </td>
-          </tr>
-          <tr>
-            <td class="content" v-bind="headingAttrs">
               {{ $t('新型コロナウイルス感染症の予防・検査・医療に関すること') }}
             </td>
-            <td class="bureau">{{ $t('福祉保健局') }}</td>
-            <td class="tel">
-              <a href="tel:0570-550-571">0570-550-571</a><br />
-              {{ $t('（新型コロナコールセンター）') }}
+            <td class="bureau">{{ $t('広域健康福祉センター及び保健所等') }}</td>
+            <td>
+              <a
+                href="http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/shingatakoronavirussoudannmadoguti.html"
+                >電話相談窓口</a
+              ><br />
+            </td>
+          </tr>
+          <tr>
+            <td class="content" v-bind="headingAttrs">
+              {{ $t('Coronavirus hotline for tochigi foreign residents') }}
+            </td>
+            <td class="bureau">
+              とちぎ外国人相談(がいこくじんそうだん)サポートセンター
+            </td>
+            <td>
+              <a href="http://tia21.or.jp/hello.html">Contact Webpage</a><br />
             </td>
           </tr>
         </tbody>
