@@ -162,7 +162,7 @@ export default Vue.extend({
           link: this.localePath('/about')
         },
         {
-          title: this.$t('お問い合わせ先一覧'),
+          title: this.$t('CONTACT|お問い合わせ先一覧'),
           link: this.localePath('/contacts')
         },
         {
