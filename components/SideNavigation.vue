@@ -62,7 +62,7 @@
             </picture>
           </a>
           <a
-            href="https://github.com/origamium/covid19"
+            href="https://github.com/origamium/covid19-tochigi"
             target="_blank"
             rel="noopener noreferrer"
             class="SideNavigation-SocialLink"

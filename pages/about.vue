@@ -195,7 +195,7 @@
         <i18n path="詳しくは、{githubRepo}をご確認ください。">
           <template v-slot:githubRepo>
             <a
-              href="https://github.com/origamium/covid19"
+              href="https://github.com/origamium/covid19-tochigi"
               target="_blank"
               rel="noopener noreferrer"
             >
