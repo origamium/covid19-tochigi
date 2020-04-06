@@ -12,27 +12,13 @@
     <confirmed-cases-attributes-card
       v-else-if="this.$route.params.card == 'attributes-of-confirmed-cases'"
     />
-    <tested-number-card
-      v-else-if="this.$route.params.card == 'number-of-tested'"
-    />
     <inspection-persons-number-card
       v-else-if="this.$route.params.card == 'number-of-inspection-persons'"
-    />
-    <telephone-advisory-reports-number-card
-      v-else-if="
-        this.$route.params.card ==
-          'number-of-reports-to-covid19-telephone-advisory-center'
-      "
     />
     <consultation-desk-reports-number-card
       v-else-if="
         this.$route.params.card ==
           'number-of-reports-to-covid19-consultation-desk'
-      "
-    />
-    <metro-card
-      v-else-if="
-        this.$route.params.card == 'predicted-number-of-toei-subway-passengers'
       "
     />
     <agency-card v-else-if="this.$route.params.card == 'agency'" />
@@ -45,9 +31,7 @@ import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsC
 import TestedCasesDetailsCard from '@/components/cards/TestedCasesDetailsCard.vue'
 import ConfirmedCasesNumberCard from '@/components/cards/ConfirmedCasesNumberCard.vue'
 import ConfirmedCasesAttributesCard from '@/components/cards/ConfirmedCasesAttributesCard.vue'
-import TestedNumberCard from '@/components/cards/TestedNumberCard.vue'
 import InspectionPersonsNumberCard from '@/components/cards/InspectionPersonsNumberCard.vue'
-import TelephoneAdvisoryReportsNumberCard from '@/components/cards/TelephoneAdvisoryReportsNumberCard.vue'
 import ConsultationDeskReportsNumberCard from '@/components/cards/ConsultationDeskReportsNumberCard.vue'
 
 export default {
@@ -56,9 +40,7 @@ export default {
     TestedCasesDetailsCard,
     ConfirmedCasesNumberCard,
     ConfirmedCasesAttributesCard,
-    TestedNumberCard,
     InspectionPersonsNumberCard,
-    TelephoneAdvisoryReportsNumberCard,
     ConsultationDeskReportsNumberCard
   },
   data() {
@@ -92,7 +74,7 @@ export default {
         ? `${url}/ogp/${this.$route.params.card}.png?t=${timestamp}`
         : `${url}/ogp/${this.$i18n.locale}/${this.$route.params.card}.png?t=${timestamp}`
     const description = `${this.updatedAt} | ${this.$t(
-      '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、東京都が開設したものをもとに作成したものです。'
+      '当サイトは栃木県における新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、東京都が開設したものに変更を加え公開しているものです'
     )}`
 
     return {

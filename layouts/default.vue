@@ -97,7 +97,7 @@ export default Vue.extend({
       link: [
         {
           rel: 'canonical',
-          href: `https://stopcovid19.metro.tokyo.lg.jp${this.$route.path}`
+          href: `https://covid-19-tochigi.origamium.net${this.$route.path}`
         },
         {
           rel: 'stylesheet',
@@ -108,7 +108,7 @@ export default Vue.extend({
         {
           hid: 'author',
           name: 'author',
-          content: this.$tc('東京都')
+          content: this.$tc('（非公式）栃木県')
         },
         {
           hid: 'description',
@@ -117,32 +117,32 @@ export default Vue.extend({
             convertDateToSimpleFormat(Data.lastUpdate) +
             ' 更新：　' +
             this.$tc(
-              '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、東京都が開設したものです。'
+              '当サイトは栃木県における新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、東京都が開設したものに変更を加え公開しているものです'
             )
         },
         {
           hid: 'og:site_name',
           property: 'og:site_name',
           content:
-            this.$t('東京都') +
+            this.$t('栃木県') +
             ' ' +
-            this.$t('新型コロナウイルス感染症') +
+            this.$t('非公式新型コロナウイルス感染症') +
             ' ' +
             this.$t('対策サイト')
         },
         {
           hid: 'og:url',
           property: 'og:url',
-          content: `https://stopcovid19.metro.tokyo.lg.jp${this.$route.path}`
+          content: `https://covid-19-tochigi.origamium.net${this.$route.path}`
         },
         ogLocale,
         {
           hid: 'og:title',
           property: 'og:title',
           content:
-            this.$t('東京都') +
+            this.$t('栃木県') +
             ' ' +
-            this.$t('新型コロナウイルス感染症') +
+            this.$t('非公式新型コロナウイルス感染症') +
             ' ' +
             this.$t('対策サイト')
         },
@@ -153,7 +153,7 @@ export default Vue.extend({
             convertDateToSimpleFormat(Data.lastUpdate) +
             ' 更新：　' +
             this.$tc(
-              '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、東京都が開設したものです。'
+              '当サイトは栃木県における新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、東京都が開設したものに変更を加え公開しているものです'
             )
         },
         {
@@ -165,9 +165,9 @@ export default Vue.extend({
           hid: 'apple-mobile-web-app-title',
           name: 'apple-mobile-web-app-title',
           content:
-            this.$t('東京都') +
+            this.$t('栃木県') +
             ' ' +
-            this.$t('新型コロナウイルス感染症') +
+            this.$t('非公式新型コロナウイルス感染症') +
             ' ' +
             this.$t('対策サイト')
         },
