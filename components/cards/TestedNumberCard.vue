@@ -36,7 +36,7 @@ export default {
       Data.inspections_summary.data['その他']
     ]
     const inspectionsItems = [
-      this.$t('都内発生（※1）'),
+      this.$t('県内発生（※1）'),
       this.$t('その他（※2）')
     ]
     const inspectionsLabels = Data.inspections_summary.labels

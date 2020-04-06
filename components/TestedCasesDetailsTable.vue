@@ -34,7 +34,7 @@
         <li :class="[$style.box, $style.inside]">
           <div :class="$style.pillar">
             <div :class="$style.content">
-              <span>{{ $t('都内発生') }}</span>
+              <span>{{ $t('県内発生') }}</span>
               <span>
                 <strong>{{ 都内発生件数.toLocaleString() }}</strong>
                 <span :class="$style.unit">{{ $t('件.tested') }}</span>
