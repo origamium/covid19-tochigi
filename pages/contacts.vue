@@ -29,6 +29,18 @@
           </tr>
           <tr>
             <td class="content" v-bind="headingAttrs">
+              {{ $t('新型コロナウイルスを含む感染症情報のこと') }}
+            </td>
+            <td class="bureau">{{ $t('栃木県感染症情報センター') }}</td>
+            <td>
+              <a
+                href="http://www.thec.pref.tochigi.lg.jp/tidc/data/data-new.html"
+                >栃木県感染症情報センター</a
+              ><br />
+            </td>
+          </tr>
+          <tr>
+            <td class="content" v-bind="headingAttrs">
               {{ $t('Coronavirus hotline for tochigi foreign residents') }}
             </td>
             <td class="bureau">
